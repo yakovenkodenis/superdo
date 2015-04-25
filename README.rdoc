@@ -3,11 +3,17 @@
 This is a todo list rails application.
 
 * Deployment instructions:
+
   1) set RAILS_ENV=production
+  
   2) bundle exec rake assets:precompile
+  
   3) heroku login
+  
   4) heroku auth:token
+  
   4) git push heroku master
+  
 
 
 
