@@ -3,6 +3,12 @@
 <p>
   <strong>Content:</strong>
   <%= @task.content %>
+  <%= @task.state %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @task.state %>
 </p>
 
 <%= link_to 'Edit', edit_task_path(@task) %> |
