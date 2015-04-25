@@ -8,11 +8,13 @@ This is a todo list rails application.
   
   2) bundle exec rake assets:precompile
   
-  3) heroku login
+  3) heroku run rake db:mograte
   
-  4) heroku auth:token
+  4) heroku login
   
-  4) git push heroku master
+  5) heroku auth:token
+  
+  6) git push heroku master
   
 
 
